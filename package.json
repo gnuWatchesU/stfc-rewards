@@ -1,0 +1,27 @@
+{
+  "name": "stfc-rewards",
+  "version": "0.0.1",
+  "description": "Automatically click through web-based STFC rewards",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gnuWatchesU/stfc-rewards.git"
+  },
+  "author": "Alex Bjorke",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/gnuWatchesU/stfc-rewards/issues"
+  },
+  "homepage": "https://github.com/gnuWatchesU/stfc-rewards#readme",
+  "devDependencies": {
+    "@playwright/test": "^1.42.0",
+    "@types/node": "^20.11.0",
+    "dotenv": "^16.4.5",
+    "typescript": "^5.3.3"
+  },
+  "dependencies": {
+    "winston": "^3.12.0"
+  }
+}

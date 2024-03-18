@@ -396,3 +396,16 @@ FodyWeavers.xsd
 
 # JetBrains Rider
 *.sln.iml
+
+# Testing
+/test-results/
+/playwright-report/
+/blob-report/
+/playwright/.cache/
+
+# Sensitive
+dotenv
+/test-results/
+/playwright-report/
+/blob-report/
+/playwright/.cache/
